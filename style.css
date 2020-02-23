@@ -1,0 +1,27 @@
+.rating {
+	display: inline-block;
+}
+
+.rating i {
+	color: #e6e62b;
+}
+
+/*.rating:hover a {
+	color: #e6e62b;
+}
+
+.rating .star-1:hover ~ a {
+	color: #e6e62b;
+}
+
+.rating .star-2:hover ~ a {
+	color: #e6e62b;
+}
+
+.rating .star-3:hover ~ a {
+	color: #e6e62b;
+}
+
+.rating .star-4:hover ~ a {
+	color: #e6e62b;
+}*/

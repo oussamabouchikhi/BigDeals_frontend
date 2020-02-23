@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/fontawesome.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">BigDeals</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categories
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Electronics</a>
+            <a class="dropdown-item" href="#">Entertainment</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Kids</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cart</a>
+        </li>
+<!--         <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li> -->
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+    <!-- Product -->
+      <div class="container mt-5">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <img class="card-img-top" height="100%" src="./img/air-max-270_1.JPG" alt="Card image cap">
+          </div>
+          
+          <div class="col-md-6">
+            <div class="card">                  
+              <div class="card-body">
+                <h2 class="card-title">Nike Air Max 270 Extreme</h2>
+                <div class="rating">
+                  <i class="star-1 fas fa-star"></i>
+                  <i class="star-2 fas fa-star"></i>
+                  <i class="star-3 fas fa-star"></i>
+                  <i class="star-4 fas fa-star"></i>
+                  <i class="star-5 far fa-star"></i>
+                </div>
+      
+                <span class="reviews text-muted">132 reviews</span>
+                <span class="orders text-success"><i class="fas fa-clipboard-check"></i> 154 orders</span>
+                <h3 class="price">$120</h3>
+                <p class="card-text">The Nike Air Max 270 Extreme features a huge Max Air unit for soft cushioning that’s impossible to ignore. The slip-on design takes the look to the extreme with a big elastic strap to lock your feet in. No laces needed.</p>
+                <a href="#" class="badge badge-light">Nike Air</a>
+                <hr>
+                <div class="form-group">
+                   <label for="quantity">Quantity:</label>
+<input type="number" id="quantity" name="quantity" min="1" max="100" value="1"> 
+                </div>
+
+                <a href="#" class="btn btn-primary">Buy now</a>
+                <button type="button" class="btn btn-outline-primary">Add to cart <i class="fas fa-shopping-cart"></i></button>
+<!--                 <a href="#" class="btn btn-default border-primary">Add to cart <i class="fas fa-shopping-cart"></i></a> -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    <!-- Product -->
+
+    <hr>
+
+    <!-- Feedback -->
+    <div class="container">
+     <div class="form-group">
+        <h2 class="text-center">Feedback</h2>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Leave your message here..."></textarea>
+        <button type="button" class="btn btn-primary btn-lg btn-block mt-1">Send</button>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then fontawesome -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/fontawesome.min.js" integrity="sha256-7zqZLiBDNbfN3W/5aEI1OX/5uvck9V0yhwKOA9Oe49M=" crossorigin="anonymous"></script>
+<!--     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-7zqZLiBDNbfN3W/5aEI1OX/5uvck9V0yhwKOA9Oe49M=" crossorigin="anonymous"></script> -->
+  </body>
+</html>
